@@ -13,3 +13,4 @@ def find_peak_linear(arr):
     for num in arr:
         if num > peak:
             peak = num
+    return peak
