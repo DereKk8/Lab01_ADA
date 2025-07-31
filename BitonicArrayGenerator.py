@@ -30,6 +30,7 @@ def generate_unimodal(n, increment):
     # Fill left side (increasing to peak)
     for i in range(peak_pos - 1, -1, -1):
         arr[i] = arr[i + 1] - increment
+        
 
     # Fill right side (decreasing from peak)
     for i in range(peak_pos + 1, n):
